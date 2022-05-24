@@ -1,0 +1,16 @@
+<div id="evento-view-contain" class="container">
+    <div class="row text-center">
+        <a class="back-link main-color" href="/">Voltar</a>
+        <div id="img-container" class="col-md-12">
+            <img src="" alt="C:\Users\Larissa\Desktop\Projeto-USJT\Projeto-USJT\public\img\site.jpeg" alt="Site">
+        </div>
+        <div class="col-md-12">
+            <h1 class="main-color">{{evento.dataValues.title}}</h1>
+            <p class="bold">Descrição:</p>
+            <p class="evento-desc">{{evento.dataValues.description}}</p>
+            <p><span class="bold">O valor do evento é:</span> R${{evento.dataValues.value}}</p> e a data é: {{evento.dataValues.date}}
+            <p>
+                Para ver mais detalhes vá para o site <span class="bold main-color">{{evento.dataValues.site}}</span>
+            </p>
+        </div>
+</div>

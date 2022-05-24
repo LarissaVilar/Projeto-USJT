@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const db = require('../db/connection');
 
-const Catalogo = db.define('catalogo', {
+const Evento = db.define('evento', {
     title: {
         type: Sequelize.STRING,
     },
@@ -17,10 +17,10 @@ const Catalogo = db.define('catalogo', {
     date: {
         type: Sequelize.INTEGER,
     },
-    new_event: {
+    new_evento: {
         type: Sequelize.STRING,
     },
 
 });
 
-module.exports = Catalogo
+module.exports = Evento

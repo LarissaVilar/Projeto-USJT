@@ -1,15 +1,14 @@
 {
-  "name": "catalogo",
+  "name": "evento",
   "version": "1.0.0",
-  "description": "este sistema é um portal para programadores encontrarem vagas de trabalho",
+  "description": "este sistema é um portal para pessoas encontrarem eventos em SP",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js"
   },
   "keywords": [
-    "dev",
-    "catalogos",
-    "dev",
+    "eventos",
+    "eventos",
     "oportunity"
   ],
   "author": "",
